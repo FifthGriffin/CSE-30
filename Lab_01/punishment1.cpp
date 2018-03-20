@@ -11,7 +11,7 @@ int main()
 	getline(cin,x); //give x a value
 	int y = -2; //declare variable for amount of lines
 	stringstream(x) >> y;
-	cout << y <<endl;
+	//cout << y <<endl;
 	if(y < 0) //verify posibility of printing y times 
 	{
 		cout << "You entered an incorrect value for the number of lines!" <<endl;
